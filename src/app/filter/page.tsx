@@ -1,6 +1,6 @@
 import React from 'react'
 import { getData } from '@/utils/handleDatabase'
-import FilterComponent from '../components/FilterComponent';
+import FilterComponent from '../components/Select';
 
 export default async function Filter() {
     const data = await getData();
